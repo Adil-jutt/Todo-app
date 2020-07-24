@@ -1,0 +1,44 @@
+body{
+    background-color: whitesmoke !important;
+}
+.Btn,h1{
+text-align: center;
+}
+.heading{
+    background-color: #1ac6ff;
+}
+
+input{
+    font-size: larger;
+    margin: 20px auto !important;
+    padding: 5px 5px 5px 5px;
+}
+button{
+    font-size: x-large !important;
+    border-radius: 8px !important;
+    background-color: #80dfff;
+    box-shadow: -3px 2px 5px grey;
+
+}
+ol{
+    margin-top:50px !important;
+}
+.Items{
+    font-size: xx-large;
+    text-shadow: -2px 2px 5px grey;
+}
+.Items button{
+    
+   margin-left: 20px;
+   padding: 0px 5px ;
+  
+}
+@media screen and (max-width: 500px){
+    .Items{
+        font-size: x-large;
+    }
+    .Items button{
+        margin-left: 10px;
+        font-size: large !important;
+    }
+}
